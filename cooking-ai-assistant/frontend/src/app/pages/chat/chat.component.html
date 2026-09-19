@@ -1,0 +1,50 @@
+ <div class="chat-container">
+    <header class="chat-header">
+      <h1>AI Chatbox</h1>
+      <p class="status">0 messages exchanged</p>
+      <button class="btn new-timer">+ Start Chat</button>
+    </header>
+
+    <main class="chat-main">
+      <div class="empty-state">
+        <img src="https://cdn-icons-png.flaticon.com/512/1653/1653630.png " width="60" height="60" alt="" title="" class="img-small">
+        <h2>No messages yet</h2>
+        <p>Start a conversation or ask a question to begin chatting with the AI.</p>
+        <!-- <button class="primary-btn">+ Send Your First Message</button> -->
+      </div>
+
+      <div class="chat-window" id="chat-window">
+      <!-- Messages will appear here -->
+      </div>
+ 
+      <form class="chat-input" id="chat-form">
+      <input type="text" id="user-input" placeholder="Type your message..." required />
+      <button type="submit">Send</button>
+     </form>
+
+    </main>
+  </div>
+
+
+
+
+
+<!-- <div class="card">
+  <h2>AI Chat</h2>
+  <div class="row">
+    <input [(ngModel)]="pantry" placeholder="Your pantry (comma-separated)" />
+    <select [(ngModel)]="diet">
+      <option value="">Any</option>
+      <option value="vegan">Vegan</option>
+      <option value="vegetarian">Vegetarian</option>
+      <option value="non-vegetarian">Non-Vegetarian</option>
+    </select>
+  </div>
+  <div class="row">
+    <input [(ngModel)]="message" placeholder="Ask: 'substitution for paneer' or 'what can I cook?'" />
+    <button (click)="send()">Send</button>
+  </div>
+  <div style="height:200px; overflow:auto; background:#0b1220; border-radius:8px; padding:8px">
+    <div *ngFor="let line of log">{{line}}</div>
+  </div>
+</div> -->

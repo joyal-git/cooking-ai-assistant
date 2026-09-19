@@ -1,0 +1,8 @@
+<div class="card">
+  <h2>Nutrition Estimate</h2>
+  <div class="row">
+    <input [(ngModel)]="rid" placeholder="Recipe ID (e.g., r001)" />
+    <button (click)="fetch()">Estimate</button>
+  </div>
+  <pre *ngIf="data">{{data | json}}</pre>
+</div>

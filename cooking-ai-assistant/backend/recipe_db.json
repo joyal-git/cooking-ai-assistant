@@ -1,0 +1,465 @@
+[
+  {
+    "id": "r001",
+    "name": "Paneer Tikka",
+    "cuisine": "Indian",
+    "diet": "vegetarian",
+    "time_minutes": 35,
+    "difficulty": "medium",
+    "tags": ["grill", "high-protein"],
+    "image_url": "https://images.pexels.com/photos/33430558/pexels-photo-33430558/free-photo-of-delicious-grilled-paneer-skewers-with-vegetables.jpeg?",
+    "description": "A popular Indian appetizer made with marinated paneer and vegetables, grilled to perfection.",
+    "ingredients": [
+      {"item": "paneer", "grams": 250},
+      {"item": "yogurt", "grams": 100},
+      {"item": "bell pepper", "grams": 100},
+      {"item": "onion", "grams": 80},
+      {"item": "garam masala", "grams": 5},
+      {"item": "turmeric", "grams": 3},
+      {"item": "salt", "grams": 3},
+      {"item": "oil", "grams": 10}
+    ],
+    "steps": [
+      "Cut paneer and vegetables into cubes.",
+      "Whisk yogurt with spices and salt.",
+      "Marinate for 15 minutes.",
+      "Skewer and grill until charred.",
+      "Brush with oil and serve hot."
+    ]
+  },
+  {
+    "id": "r002",
+    "name": "Vegetable Stir-Fry",
+    "cuisine": "Asian",
+    "diet": "vegan",
+    "time_minutes": 20,
+    "difficulty": "easy",
+    "tags": ["quick", "low-fat"],
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2008/01/Vegetable-stir-fry-b669c05.jpg",
+    "description": "A popular Indian appetizer made with marinated paneer and vegetables, grilled to perfection.",
+    "ingredients": [
+      {"item": "broccoli", "grams": 150},
+      {"item": "carrot", "grams": 100},
+      {"item": "bell pepper", "grams": 100},
+      {"item": "garlic", "grams": 10},
+      {"item": "soy sauce", "grams": 20},
+      {"item": "oil", "grams": 10}
+    ],
+    "steps": [
+      "Heat oil in a wok.",
+      "Add garlic, then vegetables.",
+      "Stir-fry on high heat for 5–7 minutes.",
+      "Add soy sauce and toss.",
+      "Serve with rice or noodles."
+    ]
+  },
+  {
+    "id": "r003",
+    "name": "Chicken Curry",
+    "cuisine": "Indian",
+    "diet": "non-vegetarian",
+    "time_minutes": 40,
+    "difficulty": "medium",
+    "tags": ["comfort", "family"],
+    "image_url":"https://www.whiskaffair.com/wp-content/uploads/2021/10/Andhra-Chicken-Curry-2-3.jpg",
+    "description": "A popular Indian appetizer made with marinated paneer and vegetables, grilled to perfection.",
+    "ingredients": [
+      {"item": "chicken", "grams": 400},
+      {"item": "onion", "grams": 150},
+      {"item": "tomato", "grams": 150},
+      {"item": "garlic", "grams": 15},
+      {"item": "ginger", "grams": 15},
+      {"item": "garam masala", "grams": 5},
+      {"item": "turmeric", "grams": 3},
+      {"item": "chili powder", "grams": 3},
+      {"item": "oil", "grams": 20},
+      {"item": "salt", "grams": 4}
+    ],
+    "steps": [
+      "Sauté onion until golden.",
+      "Add ginger-garlic, then spices.",
+      "Add tomato and cook down.",
+      "Add chicken and simmer until cooked.",
+      "Adjust seasoning and serve."
+    ]
+  },
+  {
+    "id": "r004",
+    "name": "Chickpea Masala",
+    "cuisine": "Indian",
+    "diet": "vegan",
+    "time_minutes": 30,
+    "difficulty": "easy",
+    "tags": ["high-fiber", "budget"],
+    "image_url": "https://www.seriouseats.com/thmb/2KtHVPso7I68piUvR0501CjHJyY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2016__03__20160328-channa-masala-recipe-8-2ab6195d55ae4068a8c1d36d7371f5f7.jpg",
+    "description": "A popular Indian appetizer made with marinated paneer and vegetables, grilled to perfection.",
+    "ingredients": [
+      {"item": "chickpeas", "grams": 250},
+      {"item": "onion", "grams": 120},
+      {"item": "tomato", "grams": 150},
+      {"item": "garlic", "grams": 10},
+      {"item": "ginger", "grams": 10},
+      {"item": "garam masala", "grams": 5},
+      {"item": "turmeric", "grams": 3},
+      {"item": "oil", "grams": 15},
+      {"item": "salt", "grams": 4}
+    ],
+    "steps": [
+      "Heat oil, sauté onion.",
+      "Add ginger-garlic and spices.",
+      "Add tomato and cook down.",
+      "Add chickpeas and simmer for 10 minutes.",
+      "Serve with rice or roti."
+    ]
+  },
+  {
+    "id": "r005",
+    "name": "Spinach Lentil Soup",
+    "cuisine": "Global",
+    "diet": "vegan",
+    "time_minutes": 25,
+    "difficulty": "easy",
+    "tags": ["soup", "iron-rich"],
+    "image_url": "https://thefirstmess.com/wp-content/uploads/2019/01/01-10341-post/deep-green-lentil-stew-vegan-recipe-8.jpg",
+    "description": "A popular Indian appetizer made with marinated paneer and vegetables, grilled to perfection.",
+    "ingredients": [
+      {"item": "red lentils", "grams": 150},
+      {"item": "spinach", "grams": 100},
+      {"item": "onion", "grams": 100},
+      {"item": "garlic", "grams": 10},
+      {"item": "tomato", "grams": 100},
+      {"item": "oil", "grams": 10},
+      {"item": "salt", "grams": 4}
+    ],
+    "steps": [
+      "Rinse lentils.",
+      "Sauté onion and garlic.",
+      "Add lentils and water; simmer 15 minutes.",
+      "Add tomato and spinach; cook 5 minutes.",
+      "Season and serve."
+    ]
+  },
+  {
+    "id": "r006",
+    "name": "Veggie Omelette",
+    "cuisine": "Global",
+    "diet": "non-vegetarian",
+    "time_minutes": 15,
+    "difficulty": "easy",
+    "tags": ["breakfast", "quick"],
+    "image_url": "https://img.freepik.com/premium-photo/delicious-veggie-omelet-served-plate_693630-8554.jpg",
+    "description": "A popular Indian appetizer made with marinated paneer and vegetables, grilled to perfection.",
+    "ingredients": [
+      {"item": "egg", "grams": 150},
+      {"item": "onion", "grams": 50},
+      {"item": "bell pepper", "grams": 50},
+      {"item": "tomato", "grams": 50},
+      {"item": "oil", "grams": 10},
+      {"item": "salt", "grams": 3}
+    ],
+    "steps": [
+      "Beat eggs with salt.",
+      "Sauté chopped veggies.",
+      "Pour eggs and cook until set.",
+      "Fold and serve warm."
+    ]
+  },
+  {
+    "id": "r007",
+    "name": "Tofu Bhurji",
+    "cuisine": "Indian",
+    "diet": "vegan",
+    "time_minutes": 20,
+    "difficulty": "easy",
+    "tags": ["high-protein", "low-carb"],
+    "image_url": "https://veggiefoodrecipes.com/wp-content/uploads/2025/08/Recipe-for-Vegan-Tofu-Bhurji.jpg",
+    "description": "A popular Indian appetizer made with marinated paneer and vegetables, grilled to perfection.",
+    "ingredients": [
+      {"item": "tofu", "grams": 200},
+      {"item": "onion", "grams": 100},
+      {"item": "tomato", "grams": 100},
+      {"item": "turmeric", "grams": 3},
+      {"item": "chili powder", "grams": 3},
+      {"item": "oil", "grams": 10},
+      {"item": "salt", "grams": 4}
+    ],
+    "steps": [
+      "Crumble tofu.",
+      "Sauté onion with spices.",
+      "Add tomato and cook down.",
+      "Add tofu and stir-fry for 5 minutes.",
+      "Garnish and serve."
+    ]
+  },
+  {
+    "id": "r008",
+    "name": "Simple Dal Tadka",
+    "cuisine": "Indian",
+    "diet": "vegetarian",
+    "time_minutes": 30,
+    "difficulty": "easy",
+    "tags": ["comfort", "budget"],
+    "image_url": "https://c.ndtvimg.com/2021-01/dgdlkf8_dal-tadka_625x300_14_January_21.jpg",
+    "description": "A popular Indian appetizer made with marinated paneer and vegetables, grilled to perfection.",
+    "ingredients": [
+      {"item": "yellow lentils", "grams": 200},
+      {"item": "onion", "grams": 100},
+      {"item": "tomato", "grams": 100},
+      {"item": "garlic", "grams": 10},
+      {"item": "ginger", "grams": 10},
+      {"item": "ghee", "grams": 10},
+      {"item": "cumin seeds", "grams": 5},
+      {"item": "turmeric", "grams": 3},
+      {"item": "salt", "grams": 4}
+    ],
+    "steps": [
+      "Boil lentils until soft.",
+      "Prepare tempering with ghee, cumin, garlic.",
+      "Add onion and tomato; cook down.",
+      "Mix with dal, simmer and serve."
+    ]
+  },
+  {
+   "id": "r009",
+   "name": "Chickpea Coconut Curry",
+   "cuisine": "Indian",
+   "diet": "vegan",
+   "time_minutes": 30,
+   "difficulty": "easy",
+   "tags": ["curry", "protein-rich"],
+   "image_url": "https://realandvibrant.com/wp-content/uploads/2020/03/coconut-chickpea-curry-3.jpg",
+   "description": "A creamy coconut-based curry made with chickpeas and mild spices.",
+   "ingredients": [
+    {"item": "chickpeas", "grams": 200},
+    {"item": "coconut milk", "grams": 200},
+    {"item": "onion", "grams": 100},
+    {"item": "tomato", "grams": 100},
+    {"item": "garlic", "grams": 10},
+    {"item": "ginger", "grams": 10},
+    {"item": "oil", "grams": 10},
+    {"item": "salt", "grams": 4}
+   ],
+   "steps": [
+    "Sauté onion, garlic, and ginger.",
+    "Add tomato and cook until soft.",
+    "Stir in chickpeas and coconut milk.",
+    "Simmer for 10 minutes.",
+    "Season and serve."
+   ]
+  },
+  {
+   "id": "r010",
+   "name": "Quinoa Veggie Bowl",
+   "cuisine": "Global",
+   "diet": "vegan",
+   "time_minutes": 20,
+   "difficulty": "easy",
+   "tags": ["bowl", "high-fiber"],
+   "image_url": "https://www.myweekendkitchen.in/wp-content/uploads/2019/02/quinoa_buddha_bowl_flatlay.jpg",
+   "description": "A nutritious bowl of quinoa topped with sautéed vegetables.",
+   "ingredients": [
+    {"item": "quinoa", "grams": 150},
+    {"item": "bell peppers", "grams": 100},
+    {"item": "zucchini", "grams": 100},
+    {"item": "carrot", "grams": 80},
+    {"item": "olive oil", "grams": 10},
+    {"item": "salt", "grams": 4}
+   ],
+   "steps": [
+    "Rinse and cook quinoa.",
+    "Sauté vegetables until tender.",
+    "Season vegetables.",
+    "Assemble quinoa and veggies in a bowl.",
+    "Serve warm."
+   ]
+  }, 
+  {
+   "id": "r011",
+   "name": "Tomato Basil Pasta",
+   "cuisine": "Italian",
+   "diet": "vegan",
+   "time_minutes": 22,
+   "difficulty": "easy",
+   "tags": ["pasta", "quick-meal"],
+   "image_url": "https://www.halfbakedharvest.com/wp-content/uploads/2023/07/Charred-Tomato-Basil-Chicken-Florentine-Pasta-1-500x375.jpg",
+   "description": "A refreshing pasta tossed with tomato, garlic, and fresh basil.",
+   "ingredients": [
+    {"item": "pasta", "grams": 200},
+    {"item": "tomato", "grams": 150},
+    {"item": "garlic", "grams": 10},
+    {"item": "basil", "grams": 10},
+    {"item": "olive oil", "grams": 15},
+    {"item": "salt", "grams": 4}
+   ],
+   "steps": [
+    "Boil pasta until al dente.",
+    "Sauté garlic in oil.",
+    "Add tomatoes and cook until soft.",
+    "Mix pasta with sauce and basil.",
+    "Serve warm."
+   ]
+  },
+  {
+   "id": "r012",
+   "name": "Vegetable Fried Rice",
+   "cuisine": "Asian",
+   "diet": "vegan",
+   "time_minutes": 15,
+   "difficulty": "easy",
+   "tags": ["rice", "quick-meal"],
+   "image_url": "https://clubrangoon.com.hk/wp-content/uploads/2025/04/mixed-vegetable-fried-rice-recipe-1745542158.jpg",
+   "description": "A simple fried rice loaded with vegetables and light seasoning.",
+   "ingredients": [
+    {"item": "cooked rice", "grams": 200},
+    {"item": "carrot", "grams": 80},
+    {"item": "peas", "grams": 60},
+    {"item": "bell pepper", "grams": 80},
+    {"item": "soy sauce", "grams": 15},
+    {"item": "oil", "grams": 10},
+    {"item": "salt", "grams": 4}
+   ],
+   "steps": [
+    "Heat oil and add vegetables.",
+    "Stir fry for 3 minutes.",
+    "Add cooked rice.",
+    "Mix in soy sauce and season.",
+    "Serve hot."
+   ]
+  },
+  {
+    "id": "r013",
+    "name": "Chicken Teriyaki",
+    "cuisine": "Japanese",
+    "diet": "non-vegetarian",
+    "time_minutes": 25,
+    "difficulty": "easy",
+    "tags": ["stir-fry", "sweet-savory"],
+    "image_url": "https://www.onceuponachef.com/images/2024/01/chicken-teriyaki.jpg",
+    "description": "Juicy chicken thighs cooked in a classic teriyaki sauce made with soy, mirin, and sugar.",
+    "ingredients": [
+      {"item": "chicken thighs", "grams": 300},
+      {"item": "soy sauce", "grams": 40},
+      {"item": "mirin", "grams": 30},
+      {"item": "sugar", "grams": 15},
+      {"item": "ginger", "grams": 5},
+      {"item": "oil", "grams": 10}
+    ],
+    "steps": [
+      "Mix soy sauce, mirin, sugar, and ginger.",
+      "Sear chicken on both sides.",
+      "Pour teriyaki sauce and simmer.",
+      "Cook until thick and glossy.",
+      "Slice and serve with rice."
+    ]
+  },
+
+  {
+    "id": "r014",
+    "name": "Vegetable Sushi Rolls",
+    "cuisine": "Japanese",
+    "diet": "vegetarian",
+    "time_minutes": 40,
+    "difficulty": "medium",
+    "tags": ["rice", "veg", "gluten-free"],
+    "image_url": "https://pickyeaterblog.com/wp-content/uploads/2024/04/vegan-veggie-sushi-rolls-FI.jpg",
+    "description": "Colorful sushi rolls filled with cucumber, carrot, and avocado wrapped in nori sheets.",
+    "ingredients": [
+      {"item": "sushi rice", "grams": 200},
+      {"item": "nori sheets", "grams": 20},
+      {"item": "cucumber", "grams": 80},
+      {"item": "carrot", "grams": 60},
+      {"item": "avocado", "grams": 100},
+      {"item": "rice vinegar", "grams": 20},
+      {"item": "salt", "grams": 2}
+    ],
+    "steps": [
+      "Cook sushi rice and mix with vinegar and salt.",
+      "Cut vegetables into thin strips.",
+      "Place rice on nori sheet.",
+      "Add veggies and roll tightly.",
+      "Slice and serve with soy sauce."
+    ]
+  },
+
+  {
+    "id": "r015",
+    "name": "Miso Soup",
+    "cuisine": "Japanese",
+    "diet": "vegetarian",
+    "time_minutes": 15,
+    "difficulty": "easy",
+    "tags": ["soup", "light"],
+    "image_url": "https://www.crowdedkitchen.com/wp-content/uploads/2020/08/vegan-miso-soup.jpg",
+    "description": "A warm, comforting soup made with miso paste, tofu cubes, seaweed, and green onions.",
+    "ingredients": [
+      {"item": "miso paste", "grams": 30},
+      {"item": "tofu", "grams": 100},
+      {"item": "wakame seaweed", "grams": 5},
+      {"item": "green onions", "grams": 20},
+      {"item": "water", "grams": 500}
+    ],
+    "steps": [
+      "Heat water in a pot.",
+      "Add wakame and tofu cubes.",
+      "Lower heat and dissolve miso paste.",
+      "Stir gently without boiling.",
+      "Garnish with green onions and serve."
+    ]
+  },
+
+  {
+    "id": "r016",
+    "name": "Tempura Vegetables",
+    "cuisine": "Japanese",
+    "diet": "vegetarian",
+    "time_minutes": 30,
+    "difficulty": "medium",
+    "tags": ["fried", "crispy"],
+    "image_url": "https://www.jordanwinery.com/wp-content/uploads/2020/11/Jordan-Winery-Garden-Vegetable-Tempura-Recipe-WEBHERO.jpg",
+    "description": "Crispy, airy tempura batter fried vegetables such as sweet potato, eggplant, and bell pepper.",
+    "ingredients": [
+      {"item": "sweet potato", "grams": 100},
+      {"item": "eggplant", "grams": 100},
+      {"item": "bell pepper", "grams": 100},
+      {"item": "flour", "grams": 80},
+      {"item": "cornstarch", "grams": 20},
+      {"item": "cold water", "grams": 120},
+      {"item": "oil", "grams": 300}
+    ],
+    "steps": [
+      "Slice all vegetables thinly.",
+      "Mix flour and cornstarch with icy cold water.",
+      "Dip veggies in batter.",
+      "Fry until crisp and pale golden.",
+      "Serve with tempura dipping sauce."
+    ]
+  },
+
+  {
+    "id": "r017",
+    "name": "Ramen Noodle Bowl",
+    "cuisine": "Japanese",
+    "diet": "non-vegetarian",
+    "time_minutes": 45,
+    "difficulty": "medium",
+    "tags": ["noodles", "comfort-food"],
+    "image_url": "https://www.marionskitchen.com/wp-content/uploads/2024/04/20240329_MIW_15-Minute-Creamy-Korean-Ramen_Bangkok-7-scaled-e1718853424367.webp",
+    "description": "A flavorful bowl of ramen with broth, noodles, boiled egg, mushrooms, and sliced chicken.",
+    "ingredients": [
+      {"item": "ramen noodles", "grams": 150},
+      {"item": "chicken breast", "grams": 150},
+      {"item": "soy sauce", "grams": 30},
+      {"item": "mushrooms", "grams": 80},
+      {"item": "egg", "grams": 50},
+      {"item": "garlic", "grams": 5},
+      {"item": "broth", "grams": 500}
+    ],
+    "steps": [
+      "Boil noodles and set aside.",
+      "Simmer broth with soy sauce and garlic.",
+      "Cook chicken and slice thinly.",
+      "Add mushrooms to the broth.",
+      "Assemble bowl with noodles, broth, chicken, and boiled egg."
+    ]
+  }
+]

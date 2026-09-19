@@ -1,0 +1,163 @@
+ <div class="page">
+    <!-- Top actions -->
+    <header class="topbar" aria-label="Recipe actions">
+      <nav class="actions" aria-label="Primary actions">
+        <a class="btn primary" href="#" role="button" aria-label="Start Cooking Mode">
+          <span class="dot" aria-hidden="true"></span>
+          Start Cooking Mode
+        </a>
+        <a class="btn" href="#" role="button" aria-label="Add recipe to meal plan">Add to Meal Plan</a>
+        <a class="btn" href="#" role="button" aria-label="Add ingredients to shopping list">Add to Shopping List</a>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" aria-labelledby="recipe-title">
+      <div class="hero-card">
+        <div class="hero-content">
+          <div>
+            <h1 id="recipe-title" class="hero-title">{{recipeData.name}}</h1>
+            <p class="hero-sub">{{recipeData.description}}</p>
+
+            <div class="chips" role="list" aria-label="Recipe meta">
+              <div class="chip" role="listitem">
+                <div class="chip-label">Cuisine</div>
+                <div class="chip-value">{{recipeData.cuisine}}</div>
+              </div>
+              <div class="chip" role="listitem">
+                <div class="chip-label">Prep time</div>
+                <div class="chip-value">{{recipeData.time_minutes}} Mins</div>
+              </div>
+              <div class="chip" role="listitem">
+                <div class="chip-label">Servings</div>
+                <div class="chip-value">4 Servings</div>
+              </div>
+              <div class="chip" role="listitem">
+                <div class="chip-label">Difficulty</div>
+                <div class="chip-value text-capitalize">{{recipeData.difficulty}}</div>
+              </div>
+            </div>
+          </div>
+
+          <aside class="hero-visual" aria-label="Recipe illustration">
+            <span class="visual-label d-block h-100 w-100">
+              <img class="" [src]="recipeData.image_url" alt="recipe_image"/>
+            </span>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- Content panels -->
+    <main class="main">
+      <!-- Ingredients -->
+      <section class="panel" aria-labelledby="ingredients-title">
+        <div class="panel-header">
+          <h2 id="ingredients-title" class="panel-title">Ingredients</h2>
+        </div>
+        <div class="panel-body">
+          <div class="steps" *ngFor="let ingredients of recipeData.ingredients; let i = index">
+            <div class="step">
+              <div class="step-num">{{i+1}}</div>
+              <p class="step-text text-capitalize">{{ingredients.item}}</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Instructions -->
+      <section class="panel" aria-labelledby="instructions-title">
+        <div class="panel-header">
+          <h2 id="instructions-title" class="panel-title">Instructions</h2>
+        </div>
+        <div class="panel-body">
+          <div class="steps" *ngFor="let steps of recipeData.steps; let i = index">
+            <div class="step">
+              <div class="step-num">{{i+1}}</div>
+              <p class="step-text">{{steps}}</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <a href=""><h4>Back To Recipes</h4></a>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="box1">
+                 <img [src]="recipe.image_url" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 500px; width: 320px; height: 250px; margin: 0px;" alt="Food Images" jsname="kn3ccd">
+                 <div class="bottom-left">
+                    <h2>{{recipe.name}}</h2>
+                    <div class="p-2 bd-highlight"><img src="https://cdn-icons-png.flaticon.com/512/7780/7780474.png " width="20" height="20" alt="" title="" class="img-small">{{recipe.cuisine}}</div>
+                    <div class="p-2 bd-highlight"><img src="https://cdn-icons-png.flaticon.com/512/1410/1410532.png " width="20" height="20" alt="" title="" class="img-small">{{recipe.time_minutes}}</div>
+                 </div>
+            </div>
+
+            <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+              <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+              <label class="btn btn-outline-primary" for="btnradio1"><img src="https://cdn-icons-png.flaticon.com/512/6505/6505855.png" width="25" height="25" alt="Pizza free icon" title="Pizza free icon">Start Cooking Mode</label>
+
+              <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+              <label class="btn btn-outline-primary" for="btnradio2"><img src="https://cdn-icons-png.flaticon.com/512/3476/3476015.png " width="25" height="25" alt="" title="" class="img-small">Add To Meal Plan</label>
+
+              <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+              <label class="btn btn-outline-primary" for="btnradio3"><img src="   https://cdn-icons-png.flaticon.com/512/13141/13141699.png " width="25" height="25" alt="" title="" class="img-small">Add To Shopping List</label>
+            </div> 
+        </div>
+
+        <div class="col-6">
+            <div class="ingredient">
+                <p>{{recipe.ingredients}}</p>
+            </div>
+            <div class="steps">
+                <p>{{recipe.steps}}</p>
+            </div>
+        </div>
+
+        <div class="col-6">
+            <div class="nutrition">
+                <h3>Nutrition Information</h3>
+                <p>Calories: {{recipe.nutrition.calories}}</p>
+                <p>Proteins: {{recipe.nutrition.proteins}}</p>
+                <p>Fats: {{recipe.nutrition.fats}}</p>
+                <p>Carbohydrates: {{recipe.nutrition.carbohydrates}}</p>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+

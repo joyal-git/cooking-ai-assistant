@@ -1,0 +1,72 @@
+<div class="smart-timers-container">
+  <header class="header">
+    <div class="title-section">
+      <h1>Smart Timers</h1>
+      <p>Manage multiple cooking timers with voice control.</p>
+    </div>
+    <button class="btn new-timer" (click)="open(content)">+ New Timer</button>
+  </header>
+
+  <main class="empty-state" *ngIf="timerList.length === 0">
+    <div class="icon" style="width: 60; height: 60;">⏱️</div>
+    <h2>No active timers.</h2>
+    <p>Create a timer to get started or use voice commands.</p>
+    <button class="btn create-first" (click)="open(content)">+ Create Your First Timer</button>
+  </main>
+  <div class="row"  *ngIf="timerList.length > 0">
+    <div class="col-6 mb-3" *ngFor="let timer of timerList; let i=index;">
+      <div class="box">
+        <h3>{{timer.timerName}}</h3>
+        <div *ngIf="!timer.timershow">
+          {{timer.timerDuration}} Minutes
+        </div>
+        <div *ngIf="timer.timershow">
+          {{timer.timerdisplay}}
+        </div>
+        <div class="row">
+          <div class="col-7">
+            <button (click)="startTimer(i,timer.timerDuration)"><img src="   https://cdn-icons-png.flaticon.com/512/142/142457.png " width="25" height="25" alt="" title="play" class="img-small"></button>
+          </div>
+          <div class="col-2">
+            <button (click)="resetTimer(i)"><img src="   https://cdn-icons-png.flaticon.com/512/8669/8669757.png " width="25" height="25" alt="" title="reset" class="img-small"></button>
+          </div>
+          <div class="col-2">
+            <button (click)="deleteItem(timer.id)"><img src="https://cdn-icons-png.flaticon.com/512/484/484611.png " width="25" height="25" alt="" title="delete" class="img-small"></button>
+          </div>
+        </div>
+      </div>
+  </div>
+  </div>
+  
+</div>
+
+<ng-template #content let-modal>
+	<div class="modal-header">
+		<h4 class="modal-title" id="modal-basic-title">Create New Timer</h4>
+		<button type="button" class="btn-close" aria-label="Close" (click)="closeModal()"></button>
+	</div>
+	<div class="modal-body">
+    <div class="form-group mb-3">
+      <label for="">Timer Name</label>
+    <input [(ngModel)]="timerName" id="" class="form-control" type="text" placeholder="Enter Timer Name " aria-label="default input example">
+    </div>
+     <div class="form-group">
+      <label for="">
+        Duration(minutes)
+      </label>
+         <input [(ngModel)]="timerDuration" id="" class="form-control" type="number" placeholder="Enter Time In Minutes" aria-label="default input example">
+     </div>
+	</div>
+  <div class="modal-footer">
+    <div class=" d-grid gap-2">
+		<button class="btn btn-primary" type="button" (click)="addTimer()">Add Timer</button>
+	</div>
+  </div>
+	
+</ng-template>
+
+<ng-container *ngIf="showtoaster.show">
+  <ngb-toast [autohide]="true" (hidden)="showtoaster.show = false">
+        {{showtoaster.msg}}
+  </ngb-toast>
+</ng-container>

@@ -1,0 +1,75 @@
+<div class="main-part">
+    <h1><b>WELCOME TO COOKMATE!</b></h1>
+    <p>Your AI-powered cooking assistant. Explore recipes, plan meals, and manage your shopping list with ease.</p>
+    <!-- <div class="d-flex gap-3 justify-content-center"> -->
+        <!-- <button routerLink="/search" class="btn btn-info btn-lg">Get Started</button>
+        <button routerLink="/chat" class="btn btn-info btn-lg">Chat With Us</button> -->
+         <div class="vegetables">
+                <div class="vegetable cabbage">🥬</div>
+                <div class="vegetable onion">🧅</div>
+                <div class="vegetable mushroom">🍄</div>
+                <div class="vegetable tomato">🍅</div>
+                <div class="vegetable pepper-yellow">🫑</div>
+                <div class="vegetable carrot">🥕</div>
+                <div class="vegetable garlic">🧄</div>
+                <div class="vegetable broccoli">🥦</div>
+         </div>
+    <!-- </div> -->
+        
+</div>
+
+<div class="lower-part">
+    <h2>Everything You Need In The Kitchen</h2>
+    <p>Discover new recipes, create personalized meal plans, and keep track of your nutrition all in one place.</p>
+  <div class="container overflow-hidden">
+     <div class="row gy-5">
+      <div class="col-6">
+        <div (click)="redirectToPage('recipe')" class="cursor-pointer p-4 border bg-light" style="border-radius: 30px; margin-right: 20px; margin-bottom: 20px; flex-wrap: wrap;">
+           <div class="box1 box">
+           <img src="https://cdn-icons-png.flaticon.com/512/6505/6505855.png" width="60" height="60" alt="Pizza free icon" title="Pizza free icon">
+           <h4>Recipes Discovery</h4>
+           <p>Explore Thousands Of Recipes With Voice Search</p>
+           </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div (click)="redirectToPage('plan')" class="p-4 border bg-light cursor-pointer" style="border-radius: 30px; margin-bottom: 20px;">
+            <div class="box2 box">
+            <img src="https://cdn-icons-png.flaticon.com/512/3476/3476015.png " width="60" height="60" alt="" title="" class="img-small">
+            <h4>Meal Planning</h4>
+            <p>Create Customized Meal Plans Tailored To Your Dietary Needs</p>
+            </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div (click)="redirectToPage('timer')" class="p-4 border bg-light" style="border-radius: 30px; margin-right: 20px; margin-bottom: 20px;">
+            <div class="box3 box">
+            <img src="   https://cdn-icons-png.flaticon.com/512/1687/1687694.png " width="55" height="55" alt="" title="" class="img-small">
+            <h4>Smart Timer</h4>
+            <p>Manage Multiple Cooking Timer With Voice Commands</p>
+            </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div (click)="redirectToPage('shopping')" class="p-4 border bg-light" style="border-radius: 30px; margin-bottom: 20px;">
+            <div class="box4 box">
+            <img src="https://cdn-icons-png.flaticon.com/512/13141/13141699.png " width="60" height="60" alt="" title="" class="img-small">
+            <h4>Shopping List</h4>
+            <p>Generate and Manage Your Grocery Lists Effortlessly</p>
+            </div>
+       </div>
+      </div>
+      <div class="col-6">
+         <div (click)="redirectToPage('chat')" class="p-4 border bg-light" style="border-radius: 30px; margin-bottom: 20px;">
+            <div class="box5 box">
+            <img src="https://cdn-icons-png.flaticon.com/512/1782/1782357.png " width="60" height="60" alt="" title="" class="img-small">
+            <h4>AI Chat Support</h4>
+            <p>Get Instant Cooking Assistance and Recipe Suggestions from Our AI Chatbot</p>
+            </div>
+         </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+

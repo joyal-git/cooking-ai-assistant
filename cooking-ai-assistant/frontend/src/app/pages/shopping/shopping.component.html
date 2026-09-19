@@ -1,0 +1,71 @@
+  <div class="container">
+    <header class="header">
+      <div class="title-section">
+       <h1>Shopping List</h1>
+       <p class="status">0 of {{shoppingList.length}} category</p>
+      </div>
+      <!-- <button class="btn new-timer" (click)="addItem()">+ Add Item</button> -->
+       <button class="btn new-timer" (click)="open(content)">+ Add Item</button>
+       
+    </header>
+
+    <main class="empty-list" *ngIf="shoppingList.length === 0">
+      <div class="empty-box">
+        <img src="https://cdn-icons-png.flaticon.com/512/891/891462.png " width="60" height="60" alt="" title="" class="img-small">
+        <h2>Your shopping list is empty.</h2>
+        <p>Add items manually or generate a list from your recipes.</p>
+        <button class="btn create-first">+ Add Your First Timer</button>
+      </div>
+    </main>
+    <div *ngIf="shoppingList.length > 0">
+      <div class="category mb-3" *ngFor="let items of shoppingList">
+        <h2 class="text-capitalize">{{items.category}}</h2>
+        <div class="item"  *ngFor="let item of items.itemList">
+          <!-- <input type="checkbox" id="bread" [value]="item.item"/> -->
+          <label for="bread"  class="text-capitalize">{{item.item}}</label>
+          <button class="delete-btn" (click)="deleteItem(item.id)">🗑️</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <ng-template #content let-modal>
+	<div class="modal-header">
+		<h4 class="modal-title" id="modal-basic-title">Add Shopping Items</h4>
+		<button type="button" class="btn-close" aria-label="Close" (click)="closeModal()"></button>
+	</div>
+	<div class="modal-body">
+    <div class="form-group mb-3">
+      <label for="">Item Name</label>
+    <input [(ngModel)]="itemName" id="" class="form-control" type="text" placeholder="Tomato, Pasta, Onion..... " aria-label="default input example">
+    </div>
+     <div class="form-group">
+      <label for="">
+        Category
+      </label>
+     <select [(ngModel)]="itemcategory" class="form-select  form-control form-select-lg mb-3" aria-label=".form-select-lg example">
+        <option value="" selected>Select Category</option>
+        <option value="diary">Diary</option>
+        <option value="protein">Protein</option>
+        <option value="pantry">Pantry</option>
+        <option value="frozen">Frozen</option>
+        <option value="brevages">Brevages</option>
+        <option value="other">Other</option>
+     </select>
+     </div>
+	</div>
+  <div class="modal-footer">
+    <div class=" d-grid gap-2">
+		<button class="btn btn-primary" type="button" (click)="addItem()">Add Item</button>
+	</div>
+  </div>
+	
+</ng-template>
+
+<ng-container *ngIf="showtoaster.show">
+  <ngb-toast [autohide]="true" (hidden)="showtoaster.show = false">
+        {{showtoaster.msg}}
+  </ngb-toast>
+</ng-container>

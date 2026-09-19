@@ -1,0 +1,11 @@
+{
+  "paneer": ["tofu", "firm ricotta"],
+  "yogurt": ["plant-based yogurt", "buttermilk"],
+  "chicken": ["paneer", "tofu", "chickpeas"],
+  "ghee": ["butter", "oil"],
+  "egg": ["tofu scramble", "chickpea flour omelette"],
+  "soy sauce": ["tamari", "coconut aminos"],
+  "wheat flour": ["rice flour", "oat flour", "gluten-free mix"],
+  "oil": ["ghee", "butter"],
+  "milk": ["soy milk", "almond milk"]
+}

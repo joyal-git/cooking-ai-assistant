@@ -1,0 +1,72 @@
+.smart-timers-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.title-section h1 {
+  margin: 0;
+  font-size: 4rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.title-section p {
+  margin:  10 0.5rem 0 0;
+  font-size: 1.5rem;
+  color: #666;
+}
+
+.btn {
+  background-color: #ff6f00;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 2rem;
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+}
+
+.empty-state .icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.empty-state h2 {
+  margin: 0.5rem 0;
+}
+
+.empty-state p {
+  color: #777;
+  margin-bottom: 1rem;
+}
+.box {
+  background-color: rgb(226, 234, 240);
+  width: 400px;
+  height: 200px;
+  padding: 15px;
+  border-radius: 5px;
+}
+.row button {
+  margin-top: 60px;
+  background-color: #ea9514;
+}
+.col-7 button{
+  width: 220px;
+  background-color: rgb(97, 159, 85);
+}

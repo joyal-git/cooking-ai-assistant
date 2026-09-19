@@ -1,0 +1,54 @@
+<div class="recipe-upper-part">
+  <h1 style="font-size: 4,5rem;"><b>Discover Recipes</b></h1>
+  <p>Find your next favorite dish from our collection</p>
+  <input [(ngModel)]="query" placeholder="Search Recipes(Or Use Voice Commands)" (keyup)="getSingleRecipe($event)"/>
+  <div class="row">
+    <div class="col-3">
+      <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" [(ngModel)]="selectedCusine" (change)="getSingleRecipeOnCusine($event)"  >
+        <option value="" selected>All Cuisines</option>
+        <option value="indian">Indian</option>
+        <option value="japanese">Japanese</option>
+        <option value="korean">Korean</option>
+        <option value="italian">Italian</option>
+        <option value="global">Global</option>
+        <option value="asian">Asian</option>
+      </select>
+    </div>
+    <div class="col-3">
+      <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" [(ngModel)]="difficultyLevel" (change)="getSingleRecipeOnlevel($event)">
+        <option  value="" selected>All Levels</option>
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">hard</option>  
+      </select>
+    </div>
+  </div>
+</div>
+
+<div class="recipe-lower-part">
+  <div class="container overflow-hidden">
+    <div class="row" *ngIf="recipeData.length > 0">
+      <div class="col-3 mb-3" *ngFor="let recipe of recipeData">
+              <!-- <div (click)="redirectToPage('search')" class="cursor-pointer p-4 border bg-light" style="border-radius: 30px; margin-right: 20px; margin-bottom: 20px; flex-wrap: wrap;"> -->
+                <div class="box1 box cursor-pointer" (click)="findRecipeDetails(recipe.id)" style="height: 100%;">
+                <img [src]="recipe.image_url" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 500px; width: 320px; height: 250px; margin: 0px;" alt="Food Images" jsname="kn3ccd">
+                <h4>{{recipe.name}}</h4>
+                <p>{{recipe.description}}</p>
+                <div class="d-flex flex-row bd-highlight mb-4">
+                  <div class="p-2 bd-highlight"><img src="https://cdn-icons-png.flaticon.com/512/7780/7780474.png " width="20" height="20" alt="" title="" class="img-small">{{recipe.cuisine}}</div>
+                  <div class="p-2 bd-highlight"><img src="https://cdn-icons-png.flaticon.com/512/1410/1410532.png " width="20" height="20" alt="" title="" class="img-small">{{recipe.time_minutes}}</div>
+                  <div class="p-2 bd-highlight"><img src="https://cdn-icons-png.flaticon.com/512/9581/9581138.png " width="20" height="20" alt="" title="" class="img-small">2 servings</div>
+                </div>
+                </div>
+              </div>
+            <!-- </div> -->
+    </div>
+    <div  *ngIf="recipeData.length === 0">
+      <h2>No Recipe Found</h2>
+    </div>
+  </div>
+</div>
+
+<div>
+  <router-outlet></router-outlet>
+</div>
