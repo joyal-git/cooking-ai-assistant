@@ -1,0 +1,56 @@
+# Cooking AI Assistant – Smart Kitchen
+
+An AI-powered cooking assistant built using Angular, Python, FastAPI and AI.
+
+## Features
+
+- Recipe search and management
+- Nutrition information
+- Ingredient substitution suggestions
+- AI-powered cooking assistance
+- Interactive Angular frontend
+- FastAPI backend
+
+## Technologies Used
+
+- Angular
+- Python
+- FastAPI
+- AI
+- HTML
+- CSS
+- JavaScript
+
+## Project Structure
+
+cooking-ai-angular-python/
+├── backend/                 # FastAPI API
+│   ├── app.py
+│   ├── ai_assistant.py
+│   ├── planner.py
+│   ├── recipe_db.json
+│   ├── ingredients_subs.json
+│   ├── nutrition_db.json
+│   ├── requirements.txt
+│   └── Dockerfile
+└── frontend/                # Angular standalone app
+    ├── package.json
+    ├── angular.json
+    ├── tsconfig.json
+    └── src/
+        ├── index.html
+        ├── styles.css
+        ├── main.ts
+        ├── environments/environment.ts
+        └── app/
+            ├── app.component.ts
+            ├── app.component.html
+            ├── app.component.css
+            ├── app.routes.ts
+            ├── services/api.service.ts
+            └── pages/
+               ├── search/search.component.ts|html|css
+               ├── chat/chat.component.ts|html|css
+               ├── plan/plan.component.ts|html|css
+               ├── nutrition/nutrition.component.ts|html|css
+               └── shopping/shopping.component.ts|html|css
